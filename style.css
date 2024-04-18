@@ -1,0 +1,59 @@
+*{
+    margin: auto;
+}
+body{
+    background-color: blanchedalmond;
+    background-color: blanchedalmond;
+    background-image: url(food.jpg);
+        background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+       background-blend-mode:luminosity;
+        
+}
+
+    header {
+    width: 100%;
+    height: 60px;
+    margin: auto;
+    align-items: center;
+    padding: 50px;
+    background: #2f0494;
+
+    h1{
+    color: white;
+    text-align: center;
+    }
+    h2{
+        color: white;
+        text-align: center;
+    }
+    }
+
+    .container{        
+        margin-left: 5%;
+    h1{
+        text-align: center;
+        }
+    h1:hover{
+        color: red;
+
+    }
+    }
+    .post-section {
+    width: 100%;
+    padding: 50px 5vw;
+    margin-left: 50px;
+    text-wrap:balance;
+    }
+    .full-content.show {
+    display: block;
+    }
+
+    .post-image {
+    width: 400px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    }
